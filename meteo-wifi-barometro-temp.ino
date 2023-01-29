@@ -16,10 +16,10 @@ DHT dht(DHTPIN, DHTTYPE); // Initialize the DHT sensor
 /*----------------------------------------------------------*/
 
 /*-----------------ESP8266 Serial WiFi Module---------------*/
-#define SSID "TIM-29103709"     // "SSID-WiFiname" 
-#define PASS "IzH9qOGmRQBccdC1u4FtyLA8"       // "password"
-#define IP "184.106.153.149"// thingspeak.com ip
-String msg = "GET /update?key=95D8ISXLY4VZOTRQ"; //change it with your key...
+#define SSID ""     // "Tra le virgolette inserisci il nome del WiFi" 
+#define PASS ""       // "inserisci la password del WiFi"
+#define IP ""// iserisci IP di thingspeak.com
+String msg = "GET /update?key="; // metti la tua chiave dopo key=...
 /*-----------------------------------------------------------*/
 
 //Variables
